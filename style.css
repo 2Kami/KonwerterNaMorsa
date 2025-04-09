@@ -61,3 +61,12 @@ p {
     margin: auto;
     overflow: auto;
 }
+
+@media (max-width: 650px) {
+    body {
+        height: 96vh;
+        width: 95vw;
+        margin: 2vh auto;
+        padding-bottom: 10px;
+    }
+}
